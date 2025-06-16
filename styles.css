@@ -1,0 +1,264 @@
+@import url("styles/header.css");
+:root{
+    --vermelho:#8E2424;
+    --branco:white;
+    --cinza:#667085;
+    --cinza-claro:#98A2B3;
+}
+
+body{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.cabecalho{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.cabecalho__titulo{
+    padding: 0 0 0 0.3em;
+    border: 2px solid black;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 8px;
+}
+  
+
+.container{
+    display: flex;
+    margin: 1em;
+    justify-content: space-around;
+    align-items:center;   
+}
+
+.container__texto{
+    margin: 1em;
+}
+
+.container__texto--cadastrar{
+    background-color:var(--vermelho);
+    color:var(--branco) ;
+    border-radius: 8px;
+    bottom: 10px;
+    top: 10px;
+    padding:0.5em;
+}
+
+.section__one{
+    text-align: center;
+    margin: 3em 0 3% 0 ;
+    align-items: center;
+}
+
+.section__one--subtitulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--vermelho);
+}
+
+.section__one--titulo{
+    font-size: 48px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+}
+
+.section__one--texto{
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+.section__two{
+    display: flex;
+    justify-content: space-around;
+    margin: 6em;
+}
+
+.estatisticas{
+    border: 2px solid var(--cinza-claro);
+    border-radius: 8px;
+    margin: 0.5em;
+    background-image: linear-gradient(to bottom right, rgb(179, 140, 140), rgb(244, 244, 240));
+}
+
+.estatisticas__dados{
+  list-style: none;
+}
+
+
+.estatisticas__numero{
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--vermelho);
+}
+
+.estatisticas__informacao{
+    font-size: 18px;
+    font-weight: 600;
+    margin:0.5em 0 0.5em 0;
+}
+
+.estatisticas__texto{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section__three{
+    text-align: center;
+}
+
+.section__three--subtitulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.section__three--titulo{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.section__three--texto{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info{
+    list-style: none;
+    border: 2px solid var(--cinza);
+    border-radius: 8px;
+    width: 60%;
+    
+}
+
+.info__colab{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 0.5em 0;
+}
+
+.section__four{
+    text-align:center;
+    margin: 4em;
+}
+
+.subtitulo__colab{
+    padding-bottom: 1.5em;
+    font-weight: 600;
+}
+
+.info__colab{
+    padding: 1em 0 1em 0;
+    font-weight: 500;
+}
+
+.section__four--colaboradores{
+    text-align: left;
+    padding: 0 0 0 20em;
+}
+
+
+.section__five{
+    text-align: center;
+    margin: 4em;
+}
+
+.section__five--colaboradores{
+     text-align: left;
+    padding: 0 0 0 20em;  
+}
+
+.section__six{
+    text-align: center;
+    margin: 4em;
+}
+
+.section__six--subtitulo{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.section__six--titulo{
+    font-size: 36px;
+    font-weight: 600;
+    white-space: wrap;
+    padding: 0 5em 0 5em;
+}
+
+.imagem{
+    width: 15%;
+}
+
+.section__nome{
+    font-size: 20px;
+    font-weight: 500;
+    border:2px solid var(--vermelho);
+    margin: 0.5em 30em 0 30em;
+    padding: 0.5em 0 0.5em 0;
+    border-radius: 10px;
+    background-image:linear-gradient(to bottom left, rgb(252, 248, 248), rgb(250, 0, 0));;
+}
+
+.section__cargo{
+    font-size: 16px;
+    font-weight: 500;
+    color:var(--cinza) ;
+}
+
+.section__seven{
+    text-align: center;
+    margin: 6em;
+}
+
+.section__seven--titulo{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section__seven--subtitulo{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.section__seven--email{
+    display: flex;
+    justify-content: center;
+}
+
+.contato__email{
+    margin: 1em;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.contato__email::placeholder{
+    padding: 0 0 0 1em;
+}
+
+.section__cadastrar{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 10px;
+    top: 10px;
+    padding: 1em;
+    border-radius: 7px; 
+}
+
+.rodape{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
